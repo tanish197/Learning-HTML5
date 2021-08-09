@@ -6,8 +6,9 @@
             Tanish's Website
         </title>
     </head>
-   <body>
+   <>
       <h1> Hello World! </h1> <!--These are heading tags from h1 to h6-->
+     <!--NOTE : P Tag is a block elemnts which means data inside it will take the whole line or block doesn't matter how much space is there for next data.-->
       <p>This is a short paragraph I m just writing down to understand the concept</p> <!--These are paragraph tags-->
       <br/> <!--This is break tag which will create a white space-->
       <hr/> <!--This is horizontal row tag which will draw a horizontal line-->
@@ -34,6 +35,7 @@
       <footer>
 
       </footer>
+      <!--NOTE: a href tag is example of inline elements i.e,data will be in-line -->
       <a href="https://www.google.com"><h2><b>Google's Homepage</b></h2></a> <!--we can use this for navigating user to a link-->
       <br/>
       <!--If we use target blank then it will open link in new tab as shown below-->
@@ -91,10 +93,67 @@
 <dl> <!--Here, we have used dl for described list-->
     <dt>Apple</dt>
     <dd><li type="a">M1 chip is the fastest</li></dd> <!--Here, we have used dd in which we described about it-->
-
-
-
 </dl>
 
-   </body>
+<hr/>
+
+<table> <!--This is table tag-->
+   <thead>
+    <caption><h4>List of numbers</h4></caption> <!--This is a caption tag which give heading to a table-->
+    <tr> <!--It will create table rows-->
+        <th>num1</th><!--This is th tag which give heading to each row in table-->
+        <th>num2</th>
+        <th>num3</th>
+    </tr>
+   </thead> <!--This is a table head tag-->
+   <tbody> <!--This is a table body tag-->
+    <!--these both thead and tbody are just arranging table in proper manner-->
+   <tr>
+        <td>one</td> <!--This is td tag which means table data, clear from its name, writes data inside a table-->
+        <td>two</td>
+        <td>three</td>
+    </tr>
+    <tr>
+        <td colspan="2">four</td> <!--Here, I have used colspan which fo what it will create space for data in 2 columns as I have used 2 in bracket-->
+        <td>five</td>
+        <td>six</td>
+    </tr>
+    </tbody>
+</table>
+<br/><hr/>
+
+<!--Span are inline elements-->
+<span>span1</span>
+<span>span2</span>
+
+<br/>
+<br/>
+<!--Div are block elements-->
+<div>div1</div>
+<div>div2</div>
+
+<hr/>
+
+<input type="email" value="Enter ur email" /><br/> <!--These are input tags which can be used to take input-->
+<input type="password" value="Enter your password" /><br/>
+<input type="submit" name="Btn"><br/><br/>
+<input type="search" name="Btn">Search<br/>
+<input type="checkbox" name="Btn">Checkbox<br/>
+<br/>
+Do you want to marry me? <br/>
+<input type="radio" name="Btn">Yes<br/>
+<input type="radio" name="Btn">No<br/>
+<input type="radio" name="Btn">Can't say ryt now!!<br/>
+
+<hr/>
+<textarea rows="10" cols="20"> 
+
+</textarea><!--This is a text area tag which will allow user to type some text he want-->
+
+<hr/>
+<iframe src="https://github.com/" width="1000" height="1000">Check your network</iframe> <!--These are iframes which can be used to link to website, youtube vido etc but websites like google amazon instagram doesnt allow iframes to be used-->
+
+
+
+   </body>  
 </html>
